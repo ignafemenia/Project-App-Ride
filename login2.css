@@ -15,8 +15,8 @@ body {
 .form-structor {
   background-color: #222;
   border-radius: 15px;
-  height: 550px;
-  width: 350px;
+  height: 700px;
+  width: 360px;
   position: relative;
   overflow: hidden;
 }
@@ -29,9 +29,12 @@ body {
   bottom: 0;
   left: 0;
   background-repeat: no-repeat;
-  background-position: left bottom;
+  background-position: center;
   background-size: 500px;
-  background-image: url("https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bf884ad570b50659c5fa2dc2cfb20ecf&auto=format&fit=crop&w=1000&q=100");
+  background-image: url("ciclista\ \(2\).png");
+}
+.signup {
+  padding-bottom: 200px;
 }
 .form-structor .signup {
   position: absolute;
