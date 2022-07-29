@@ -21,7 +21,9 @@
     <header>
       <div class="caja">
         <h1 class="marca">CLISTA</h1>
-        <img width="70px" src="../Perfil/profile.jpg" alt="perfil" />
+        <a href="../Perfil/perfil.html"
+          ><img width="70px" src="../Perfil/profile.jpg" alt="perfil"
+        /></a>
       </div>
     </header>
 
@@ -29,9 +31,48 @@
       <section class="mapa">
         <h3 class="titulo-principal">Empeza a andar !!</h3>
         <p>Nuestro establecimiento está ubicado en el corazón de la ciudad</p>
-
+        <div class="origen">
+          <div class="row g-3 align-items-center">
+            <div class="col-auto">
+              <label for="origen" class="col-form-label">Origen</label>
+            </div>
+            <div class="col-auto">
+              <input
+                type="text"
+                id="inputText"
+                class="form-control"
+                aria-describedby="ayudaUbicacion"
+              />
+            </div>
+            <div class="col-auto">
+              <span id="ayudaUbicacion" class="form-text">
+                Debe ser una ubación valida.
+              </span>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="destino">
+          <div class="row g-3 align-items-center">
+            <div class="col-auto">
+              <label for="origen" class="col-form-label">Destino</label>
+            </div>
+            <div class="col-auto">
+              <input
+                type="text"
+                id="inputText"
+                class="form-control"
+                aria-describedby="ayudaUbicacion"
+              />
+            </div>
+            <div class="col-auto">
+              <span id="ayudaUbicacion" class="form-text">
+                Debe ser una ubación valida.
+              </span>
+            </div>
+          </div>
+        </div>
         <div class="mapa-contenido">
-          >
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.364472655746!2d-58.37364428333194!3d-34.59494406454396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a335bd8305e7a9%3A0xc41a764ce655671f!2sGlobant%20Tower!5e0!3m2!1sen!2sar!4v1658783482194!5m2!1sen!2sar"
             width="100%"
