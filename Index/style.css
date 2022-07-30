@@ -31,6 +31,9 @@ header {
   display: flex;
   margin-bottom: -20px;
 }
+.mapaframe {
+  border-radius: 5px;
+}
 .origen {
   margin-top: -15px;
   font-family: "SansOpen ", sans-serif;
