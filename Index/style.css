@@ -2,7 +2,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .marca {
-  font-family: "SansOpen ", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 68px;
   letter-spacing: 1.2px;
   color: #fdcf85;
@@ -118,6 +118,7 @@ nav a:hover {
 .botones {
   background: #f89f35;
   padding-bottom: 50px;
+  margin-top: -15px;
 }
 
 @media screen and (max-width: 480px) {

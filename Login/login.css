@@ -22,7 +22,6 @@ body {
 }
 .form-structor::after {
   content: "";
-  opacity: 0.8;
   position: absolute;
   top: 0;
   right: 0;
