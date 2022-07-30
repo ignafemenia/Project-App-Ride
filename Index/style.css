@@ -118,7 +118,7 @@ nav a:hover {
 .botones {
   background: #f89f35;
   padding-bottom: 50px;
-  margin-top: -15px;
+  margin-top: -20px;
 }
 
 @media screen and (max-width: 480px) {
