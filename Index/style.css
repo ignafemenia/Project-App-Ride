@@ -2,7 +2,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .marca {
-  font-family: "Open Sans", sans-serif;
+  font-family: "SansOpen ", sans-serif;
   font-size: 68px;
   letter-spacing: 1.2px;
   color: #fdcf85;
@@ -29,19 +29,41 @@ header {
   position: relative;
   margin: 0 auto;
   display: flex;
+  margin-bottom: -20px;
 }
-
+.origen {
+  margin-top: -15px;
+  font-family: "SansOpen ", sans-serif;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.el_origen {
+  font-size: 25px;
+}
+.destino {
+  font-family: "SansOpen ", sans-serif;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.el_destino {
+  font-size: 25px;
+}
 nav {
   position: absolute;
   top: 110px;
   right: 0;
 }
-
+.mapa-contenido {
+  margin-top: 20px;
+}
 nav li {
   display: inline;
   margin: 0 0 0 15px;
 }
-
+.form-control {
+  height: 25px;
+  width: 250px;
+}
 nav a {
   text-transform: uppercase;
   color: #000000;
